@@ -1,0 +1,12 @@
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "homebrew/services"
+brew "git"
+brew "openssl@1.1"
+brew "krb5"
+brew "openssl@3"
+brew "nodenv"
+brew "postgresql@14", restart_service: true
+brew "rbenv"
+brew "heroku/brew/heroku"

@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby "3.1.3"
 gem "rails", "~> 7.0.4"
-
+gem 'sass-rails'
 gem "after_party" # post-deployment tasks
 gem "amazing_print" # easier console reading
 gem "azure-storage-blob", require: false
